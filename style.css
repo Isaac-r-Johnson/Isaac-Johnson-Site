@@ -1,0 +1,95 @@
+body{
+    background-color: #010b17
+}
+
+.main{
+    background-image: url('./images/main-bg.png');
+}
+
+.custom-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    margin: 25px;
+}
+
+h2{
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.section-heading{
+    margin-top: 25px; 
+    text-align: center; 
+    color: white; 
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+footer{
+    background-image: url('./images/main-bg.png');
+}
+
+footer a{
+    color: white;
+}
+
+.my-4{
+    margin-bottom: 0px!important;
+}
+
+.nav-link{
+    color: white!important;
+    text-decoration: underline;
+}
+
+.text-body-secondary{
+    color: white!important;
+}
+
+/* .about{
+    display: flex;
+} */
+
+.about p{
+    color: rgba(255, 255, 255, 0.753)!important;
+    text-align: center!important;
+}
+
+.about h2{
+    font-family: serif;
+}
+
+.contact-card h3{
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    .contact-card{
+        width: 15rem!important;
+        font-size: small;
+    }
+
+    .contact-card h3{
+        text-align: center;
+    }
+    
+    
+}
